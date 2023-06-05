@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+    home: Scaffold(
+      backgroundColor: Color.fromARGB(255, 193, 175, 175),
+      appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 104, 177, 213),
+        title: Center(child: Text("I Am naib rahimi")),
+      ),
+      body: Center(
+          child: Image(
+        image: AssetImage('image/naib.jpg'),
+      )),
+    ),
+  ));
+}
